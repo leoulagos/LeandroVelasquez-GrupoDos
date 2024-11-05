@@ -2,7 +2,7 @@
 
 .main {
     background-color: #1b2430;
-    background-image: url(/src/assets/fondo.jpg);
+    background-image: url(/fondo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

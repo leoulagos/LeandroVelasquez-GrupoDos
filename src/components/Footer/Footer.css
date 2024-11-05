@@ -39,6 +39,10 @@
     margin-bottom: 10px;
 }
 
+.seccion_pie_de_pagina ul li a:hover {
+    color: rgb(60, 177, 216);
+}
+
 .iconos_sociales a {
     color: #fff;
     margin: 0 10px;
