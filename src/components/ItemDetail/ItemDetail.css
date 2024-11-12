@@ -1,0 +1,124 @@
+.product-detail {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 500px;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cerrar-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-image {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-description {
+    margin: 15px 0;
+}
+
+.cantidad-selector {
+    display: flex;
+    justify-content: center; /* Centra el selector de cantidad */
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    width: 100%; /* Asegura que ocupe el 100% del contenedor */
+}
+
+.add-to-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049;
+}
+
+/* Codigo de botones y cantidad */
+
+.cantidad-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.cantidad-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cantidad-button:hover {
+    background-color: #45a049;
+}
+
+.cantidad-display {
+    font-size: 18px;
+    padding: 5px 15px;
+    min-width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.product-price {
+    font-size: 1.2rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Adaptaciones de pantalla */
+@media (max-width: 600px) {
+    .product-detail {
+        width: 100%;
+        max-width: none;
+        padding: 10px;
+    }
+
+    .add-to-cart {
+        font-size: 14px;
+    }
+
+    .cantidad-selector {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .cantidad-controls {
+        justify-content: center;
+    }
+}
+

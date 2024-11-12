@@ -1,0 +1,33 @@
+.about-container {
+    padding: 40px;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+    text-align: center;
+}
+
+.about-container p {
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #555; 
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .about-container h1 {
+        font-size: 2em;
+    }
+
+    .about-container p {
+        font-size: 1em;
+    }
+}

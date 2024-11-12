@@ -1,0 +1,68 @@
+/* Estilos Del Foooter */
+
+.pie_de_pagina {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contenido_pie_de_pagina {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion_pie_de_pagina {
+    margin: 20px 0;
+}
+
+.seccion_pie_de_pagina h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.seccion_pie_de_pagina p,
+.seccion_pie_de_pagina ul,
+.seccion_pie_de_pagina a {
+    font-size: 16px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.seccion_pie_de_pagina ul {
+    list-style: none;
+    padding: 0;
+}
+
+.seccion_pie_de_pagina ul li {
+    margin-bottom: 10px;
+}
+
+.seccion_pie_de_pagina ul li a:hover {
+    color: rgb(60, 177, 216);
+}
+
+.iconos_sociales a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.pie_de_pagina_inferior {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+.pie_de_pagina .texto_logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.texto_logo {
+    margin-bottom: 20px;
+}

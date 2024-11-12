@@ -1,0 +1,18 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta según el tamaño de tu contenedor */
+
+}
+
+.loading p {
+    font-size: 1.5rem;
+    color: #333;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}

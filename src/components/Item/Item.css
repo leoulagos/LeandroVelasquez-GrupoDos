@@ -1,0 +1,41 @@
+/* Contenedor principal de cada producto */
+
+.product-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+/* Imagen del producto */
+
+.product-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Nombre del producto */
+.product-name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Precio del producto */
+.product-price {
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* Efecto hover para agrandar la tarjeta */
+
+.product-container:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,42 @@
+.category-filter {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+.category-filter label {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+.category-filter select {
+    padding: 5px;
+    font-size: 1.2rem;
+    width: 200px; 
+    margin-top: 50px;
+}
+
+/* Estilos para pantallas de celular */
+
+@media (max-width: 950px) {
+    .category-filter {
+        justify-content: center; 
+        text-align: center; 
+    }
+
+    .category-filter label {
+        margin-right: 0;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    .category-filter select {
+        margin-top: 0;
+        width: 150px; 
+        margin-top: 50px;
+    }
+}

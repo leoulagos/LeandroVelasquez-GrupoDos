@@ -1,0 +1,17 @@
+/* Estilos del banner */
+
+.linea-nav {
+    background-color: #34495e; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 10px; 
+    font-weight: bold;
+}
+
+/* Esconde el banner cuando la pantalla es demasiado pequeña */
+
+@media (max-width: 768px) {
+    .linea-nav {
+        display: none;
+    }
+}

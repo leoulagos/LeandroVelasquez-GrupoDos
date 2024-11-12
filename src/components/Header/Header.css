@@ -1,0 +1,58 @@
+/* Estilos Del Main */
+
+.main {
+    background-color: #1b2430;
+    background-image: url(/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-contenido {
+    text-align: center;
+}
+
+.main-contenido h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.main-contenido h1:hover {
+    color: #007bff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.main-contenido p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Estilos Del Boton */
+
+
+.button-bar {
+    display: flex;
+    align-items: center;
+}
+
+.tienda-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.tienda-button:hover {
+    background-color: #0056b3;
+    transition: 0.5s ease-in-out;
+}
