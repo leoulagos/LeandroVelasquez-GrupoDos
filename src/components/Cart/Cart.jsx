@@ -1,5 +1,5 @@
 import React from 'react';
-import { useCartStore } from '../../store/cartStore.js';
+import { useCartStore } from '../../store/cartStore';
 import './Cart.css';
 import NavBar from "../Navbar/Navbar";
 
