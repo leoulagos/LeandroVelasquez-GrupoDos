@@ -1,58 +1,30 @@
-/* Estilos Del Main */
+/* Header */
 
-.main {
-    background-color: #1b2430;
-    background-image: url(/fondo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
+header {
+    background-image: url('/fondo.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center;
     color: white;
-    padding: 13rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.main-contenido {
     text-align: center;
+    padding: 120px 20px;
 }
-
-.main-contenido h1 {
-    margin: 0;
-    font-size: 2rem;
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
 }
-
-.main-contenido h1:hover {
-    color: #007bff;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
+header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
 }
-
-.main-contenido p {
-    margin: 0.5rem 0;
-    font-size: 1rem;
-}
-
-/* Estilos Del Boton */
-
-
-.button-bar {
-    display: flex;
-    align-items: center;
-}
-
-.tienda-button {
-    background-color: #007bff;
+header .cta-btn {
+    background-color: #FF6F61;
+    padding: 15px 30px;
     color: white;
-    padding: 10px 20px;
-    border: none;
+    text-decoration: none;
+    font-size: 1.2em;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
 }
-
-.tienda-button:hover {
-    background-color: #0056b3;
-    transition: 0.5s ease-in-out;
+header .cta-btn:hover {
+    background-color: #FF5733;
 }

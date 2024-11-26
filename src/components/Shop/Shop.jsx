@@ -9,8 +9,6 @@ export default function Shop() {
     return (
         <>
 
-        <Banner />
-
         <NavBar/>
 
         <div className="container">

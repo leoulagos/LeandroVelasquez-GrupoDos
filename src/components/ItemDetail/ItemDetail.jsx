@@ -1,9 +1,13 @@
 import { useState } from "react";
+import { useCartStore } from '../../store/cartStore';  // Importar el store del carrito
 import './ItemDetail.css';
 
 export default function ProductDetail({ product, onClose }) {
     const [cantidad, setCantidad] = useState(1);
     const stockDisponible = product.stock;
+
+    // Obtener la acción para agregar un producto al carrito
+    const addToCart = useCartStore(state => state.addToCart);
 
     const handleIncrease = () => {
         setCantidad(prevCantidad => 
@@ -18,8 +22,11 @@ export default function ProductDetail({ product, onClose }) {
     };
 
     const handleAddToCart = () => {
+        // Agregar el producto al carrito pasando tanto el producto como la cantidad
+        addToCart(product, cantidad);
+
         console.log(`Agregado al carrito: ${product.name} - Cantidad: ${cantidad}`);
-        onClose();
+        onClose();  // Cerrar el modal o la vista de detalle
     };
 
     return (
@@ -38,7 +45,11 @@ export default function ProductDetail({ product, onClose }) {
                     <button onClick={handleIncrease} className="cantidad-button">+</button>
                 </div>
             </div>
-            <button className="add-to-cart" onClick={handleAddToCart} disabled={cantidad > stockDisponible}>
+            <button 
+                className="add-to-cart" 
+                onClick={handleAddToCart} 
+                disabled={cantidad > stockDisponible}
+            >
                 Agregar al Carrito
             </button>
         </div>

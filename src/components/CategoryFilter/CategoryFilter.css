@@ -22,7 +22,7 @@
 
 /* Estilos para pantallas de celular */
 
-@media (max-width: 950px) {
+@media (max-width: 1203px) {
     .category-filter {
         justify-content: center; 
         text-align: center; 

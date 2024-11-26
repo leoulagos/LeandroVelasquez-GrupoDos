@@ -77,7 +77,7 @@ export const products = [
         price: 25.990,
         description: 'Eleva tu juego con el Teclado Gamer Mecánico, diseñado para ofrecer una respuesta rápida y una durabilidad excepcional en cada tecla.',
         stock: 5,
-        img: 'https://pronobel.cl/cdn/shop/files/p-470306-2-d23378ba-f293-4b59-b55f-4c8b167fe0c2_5000x.jpg?v=1724260810',
+        img: 'https://fotosol.cl/cdn/shop/products/K589_Shrapnel_3_5000x.png?v=1607531367',
         category: 'Accesorios'
     },
     {

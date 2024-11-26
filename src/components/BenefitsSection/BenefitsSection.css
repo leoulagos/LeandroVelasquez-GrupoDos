@@ -1,0 +1,37 @@
+/* Sección de Beneficios */
+.benefits-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+.benefits-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+.benefits-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.benefit {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+.benefit img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.benefit h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.benefit p {
+    font-size: 1.1em;
+    color: #333;
+}
