@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-import { useCartStore } from '../../Store/cartStore';
+import { useCartStore } from '../../store/cartStore';
 import './Cart.css';
 import NavBar from "../Navbar/Navbar";
 
