@@ -92,6 +92,11 @@ nav {
         display: block; /* Muestra el carrito dentro del menú */
     }
 
+    .fa-shopping-cart {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
     #menu-toggle {
         display: flex;
     }
@@ -134,4 +139,5 @@ body {
 .fa-shopping-cart {
     font-size: 22px;
     color: #ffe115;  /* Color del carrito */
+
 }

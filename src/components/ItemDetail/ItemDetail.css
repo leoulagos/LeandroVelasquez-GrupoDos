@@ -1,16 +1,24 @@
+:root {
+    --primary-color: #4CAF50;
+    --primary-hover: #45a049;
+}
+
 .product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 500px;
-    background: #fff;
-    padding: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95); 
+    padding: 20px;
+    box-shadow: none; 
+    border-radius: 0; 
     text-align: center;
-    margin-top: 40px;
+    z-index: 1050; 
 }
 
 .cerrar-button {
@@ -21,68 +29,71 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
+    transition: transform 0.2s, color 0.2s;
+    z-index: 1100;
+}
+
+.cerrar-button:hover {
+    transform: scale(1.1);
+    color: red;
 }
 
 .product-image {
-    width: 80%;
-    max-width: 250px;
+    width: 50%; 
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
+    object-fit: cover;
 }
 
 .product-description {
     margin: 15px 0;
 }
 
+.product-price {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.product-stock {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
 .cantidad-selector {
     display: flex;
-    justify-content: center; /* Centra el selector de cantidad */
+    justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 20px 0;
-    width: 100%; /* Asegura que ocupe el 100% del contenedor */
-}
-
-.add-to-cart {
+    margin: 15px 0;
     width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 4px;
-    transition: background 0.3s;
 }
-
-.add-to-cart:hover {
-    background-color: #45a049;
-}
-
-/* Codigo de botones y cantidad */
 
 .cantidad-controls {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
     margin-top: 10px;
 }
 
 .cantidad-button {
-    background-color: #4CAF50;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     border-radius: 5px;
     padding: 8px 12px;
     cursor: pointer;
     font-size: 18px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cantidad-button:hover {
-    background-color: #45a049;
+    background-color: var(--primary-hover);
+    transform: translateY(-2px);
 }
 
 .cantidad-display {
@@ -95,22 +106,39 @@
     background-color: #f9f9f9;
 }
 
-.product-price {
-    font-size: 1.2rem;
-    color: #4CAF50;
-    margin-bottom: 10px;
+.add-to-cart {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background 0.3s, box-shadow 0.3s, transform 0.2s;
+}
+
+.add-to-cart:hover {
+    background-color: var(--primary-hover);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 /* Adaptaciones de pantalla */
 @media (max-width: 600px) {
     .product-detail {
-        width: 100%;
-        max-width: none;
-        padding: 10px;
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    .product-image {
+        width: 70%;
+        max-width: 200px;
     }
 
     .add-to-cart {
         font-size: 14px;
+        padding: 8px;
     }
 
     .cantidad-selector {
@@ -122,4 +150,3 @@
         justify-content: center;
     }
 }
-

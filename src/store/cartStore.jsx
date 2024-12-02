@@ -24,5 +24,16 @@ export const useCartStore = create((set) => ({
             cart: state.cart.filter(item => item.id !== productId),
         }));
     },
-    clearCart: () => set({ cart: [] }), 
+    clearCart: () => set({ cart: [] }),
+
+    // Nueva función para reducir la cantidad
+    reduceQuantity: (productId) => {
+        set((state) => ({
+            cart: state.cart.map(item =>
+                item.id === productId && item.quantity > 1
+                    ? { ...item, quantity: item.quantity - 1 }  // Reducir la cantidad
+                    : item
+            ),
+        }));
+    },
 }));

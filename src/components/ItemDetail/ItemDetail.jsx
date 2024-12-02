@@ -37,8 +37,8 @@ export default function ProductDetail({ product, onClose }) {
             <p className="product-description">{product.description}</p>
             <p className="product-price">Precio: ${product.price.toFixed(3)}</p>
             <p className="product-stock">Stock disponible: {stockDisponible}</p>
+            <label>Cantidad:</label>
             <div className="cantidad-selector">
-                <label>Cantidad:</label>
                 <div className="cantidad-controls">
                     <button onClick={handleDecrease} className="cantidad-button">-</button>
                     <span className="cantidad-display">{cantidad}</span>
@@ -48,10 +48,7 @@ export default function ProductDetail({ product, onClose }) {
             <button 
                 className="add-to-cart" 
                 onClick={handleAddToCart} 
-                disabled={cantidad > stockDisponible}
-            >
-                Agregar al Carrito
-            </button>
+                disabled={cantidad > stockDisponible}>Agregar al Carrito</button>
         </div>
     );
 }

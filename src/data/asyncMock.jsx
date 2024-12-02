@@ -5,7 +5,7 @@ export const products = [
         price: 19.000,
         description: 'Experimenta la libertad de audio inalámbrico con los Airpods, diseñados para ofrecer una calidad de sonido inigualable y una conexión instantánea.',
         stock: 5,
-        img: 'https://cdnx.jumpseller.com/gtigx1/image/34125436/resize/640/640?1681424147',
+        img: '/airpod.png',
         category: 'Accesorios'
     },
     {
@@ -14,7 +14,7 @@ export const products = [
         price: 479.000,
         description: 'El Notebook HP 240 combina potencia y rendimiento en un diseño compacto, ideal para trabajo y entretenimiento en cualquier lugar.',
         stock: 5,
-        img: 'https://opcstore.cl/cdn/shop/products/fee59bcfa97db67afab549aab1a1bec4103a7d4e-c06927092__2.jpg?v=1666380257',
+        img: '/notebookhp.png',
                 category: 'Computadoras'
     },
     {
@@ -23,7 +23,7 @@ export const products = [
         price: 51.990,
         description: 'Optimiza tu PC con la Memoria RAM HyperX Fury, diseñada para un rendimiento rápido y fluido en videojuegos y aplicaciones intensivas.',
         stock: 5,
-        img: 'https://dojiw2m9tvv09.cloudfront.net/16157/product/hx426c16fb388168.jpg',
+        img: '/ramfury.jpg',
         category: 'Componentes'
     },
     {
@@ -32,25 +32,25 @@ export const products = [
         price: 578.990,
         description: 'Desata tu potencial gamer con el PC Gamer RX 580, equipado para ofrecer gráficos y rendimiento de alta calidad en los juegos más exigentes.',
         stock: 5,
-        img: 'https://cdnx.jumpseller.com/compuelite/image/52314866/d2274a4f-21c5-4484-9098-701b34a4d86d-pc-gamer-antec-nx200m-rgb-compuelite.jpeg?1724960876',
+        img: '/pcrx580.jpg',
         category: 'Computadoras'
     },
     {
         id: 5,
         name: 'Mouse Gamer 7D',
-        price: 3.490,
+        price: 3.500,
         description: 'Controla cada movimiento con precisión con el Mouse Gamer 7D, diseñado ergonómicamente para largas sesiones de juego.',
         stock: 5,
-        img: 'https://pronobel.cl/cdn/shop/files/p-523787-2-1efbc575-8562-4814-9390-0917a08d7038_2000x.jpg?v=1724260759',
+        img: '/mouse.jpg',
         category: 'Accesorios'
     },
     {
         id: 6,
         name: 'Cargador Inalambrico Trust',
-        price: 29.990,
+        price: 20.000,
         description: 'Carga tus dispositivos de forma rápida y segura con el Cargador Inalámbrico Trust, compatible con una amplia gama de dispositivos.',
         stock: 5,
-        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/17214767_1/w=1500,h=1500,fit=pad',
+        img: '/trustcargador.jpg',
         category: 'Accesorios'
     },
     {
@@ -59,7 +59,7 @@ export const products = [
         price: 7.990,
         description: 'Disfruta de una superficie lisa y duradera con el Mouse Pad Vigil, diseñado para mejorar la precisión de tus movimientos en cada partida.',
         stock: 5,
-        img: 'https://cdnx.jumpseller.com/fantech-esports/image/16745162/thumb/1500/1500?1719867215',
+        img: '/mousepadvigil.jpg',
         category: 'Accesorios'
     },
     {
@@ -68,7 +68,7 @@ export const products = [
         price: 6.990,
         description: 'Conecta y carga tus dispositivos con el Cable USB A/C, construido para ofrecer durabilidad y una transferencia de datos eficiente.',
         stock: 5,
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSw2OG0rvReN0s1T2C6pBII-lK-OrJ02bhDw&s',
+        img: '/cablesusb.png',
         category: 'Accesorios'
     },
     {
@@ -77,7 +77,7 @@ export const products = [
         price: 25.990,
         description: 'Eleva tu juego con el Teclado Gamer Mecánico, diseñado para ofrecer una respuesta rápida y una durabilidad excepcional en cada tecla.',
         stock: 5,
-        img: 'https://fotosol.cl/cdn/shop/products/K589_Shrapnel_3_5000x.png?v=1607531367',
+        img: '/tecladogamer.png',
         category: 'Accesorios'
     },
     {
@@ -86,7 +86,7 @@ export const products = [
         price: 26.990,
         description: 'Lleva tu música a todas partes con el Parlante Portátil Bluetooth Aiwa, que ofrece un sonido nítido y una conexión inalámbrica confiable.',
         stock: 5,
-        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacCL/7541031_1/w=1500,h=1500,fit=pad',
+        img: '/aiwa.jpg',
         category: 'Accesorios'
     },
     {
@@ -95,7 +95,7 @@ export const products = [
         price: 35.990,
         description: 'Si desea confiabilidad y un rendimiento rápido, los discos SSD WD Green mejoran la experiencia informática diaria en su equipo portátil o computadora de escritorio. ',
         stock: 5,
-        img: 'https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCL/124059145_01/w=1500,h=1500,fit=pad',
+        img: '/SSD240GBWesternDigitalGreen.jpg',
         category: 'Componentes'
     },
 ]
