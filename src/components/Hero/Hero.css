@@ -18,15 +18,17 @@
 }
 
 .hero .btn {
-    background: #1a1a2e;
+    background: #FF5722; /* Naranja brillante */
     color: #fff;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1rem;
-    transition: background 0.3s ease;
+    font-weight: bold; /* Resalta el texto */
+    transition: background 0.3s ease, transform 0.2s ease; /* Animación fluida */
 }
 
 .hero .btn:hover {
-    background: #333333;
+    background: #E64A19; /* Un naranja más oscuro para el hover */
+    transform: scale(1.05); /* Efecto de agrandamiento ligero */
 }
