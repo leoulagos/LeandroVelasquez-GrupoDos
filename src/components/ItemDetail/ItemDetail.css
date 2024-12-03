@@ -1,3 +1,5 @@
+/* Estilos Para Los Detalles De Los Items */
+
 :root {
     --primary-color: #4CAF50;
     --primary-hover: #45a049;
@@ -125,6 +127,7 @@
 }
 
 /* Adaptaciones de pantalla */
+
 @media (max-width: 600px) {
     .product-detail {
         padding: 15px;

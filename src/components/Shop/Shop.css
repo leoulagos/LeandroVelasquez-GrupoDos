@@ -1,5 +1,7 @@
+/* Estilos Del Shop */
+
 .container {
-    max-width: 1000px;  /* Establece un ancho máximo */
-    margin-left: auto;   /* Centra el contenedor horizontalmente */
-    margin-right: auto;  /* Centra el contenedor horizontalmente */
+    max-width: 1000px;
+    margin-left: auto;   
+    margin-right: auto;  
 }

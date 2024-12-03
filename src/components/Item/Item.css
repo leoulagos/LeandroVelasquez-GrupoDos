@@ -22,19 +22,21 @@
 }
 
 /* Nombre del producto */
+
 .product-name {
     font-size: 1.2rem;
     margin: 10px 0;
 }
 
 /* Precio del producto */
+
 .product-price {
     color: #333;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-/* Efecto hover para agrandar la tarjeta */
+/* Efecto hover para agrandar la tarjeta cuando el usuario pase el mouse */
 
 .product-container:hover {
     transform: scale(1.05);

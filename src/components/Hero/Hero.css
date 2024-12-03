@@ -1,3 +1,5 @@
+/* Estilos Del Hero */
+
 .hero {
     color: #fff;
     text-align: center;
@@ -18,17 +20,17 @@
 }
 
 .hero .btn {
-    background: #FF5722; /* Naranja brillante */
+    background: #FF5722; 
     color: #fff;
     padding: 0.8rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: bold; /* Resalta el texto */
-    transition: background 0.3s ease, transform 0.2s ease; /* Animación fluida */
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .hero .btn:hover {
-    background: #E64A19; /* Un naranja más oscuro para el hover */
-    transform: scale(1.05); /* Efecto de agrandamiento ligero */
+    background: #E64A19;
+    transform: scale(1.05); 
 }

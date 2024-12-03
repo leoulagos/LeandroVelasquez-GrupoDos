@@ -6,10 +6,10 @@ nav {
     justify-content: space-between;
     background-color: #2d4e78;
     padding: 20px 80px;
-    position: fixed; /* Navbar fija */
-    top: 0; /* Asegura que quede en la parte superior */
-    width: 100%; /* Ocupa todo el ancho */
-    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000;
 }
 
 #navbar {
@@ -72,7 +72,7 @@ nav {
 
     #navbar {
         position: absolute;
-        top: 78px; /* Asegura que el menú desplegable comience justo debajo del navbar */
+        top: 78px;
         left: -100%;
         width: 100%;
         height: 100vh;
@@ -88,8 +88,9 @@ nav {
     }
 
     /* Mostrar carrito en el menú desplegable */
+
     #navbar .cart-icon {
-        display: block; /* Muestra el carrito dentro del menú */
+        display: block; 
     }
 
     .fa-shopping-cart {
@@ -105,21 +106,21 @@ nav {
         left: 0;
     }
 
-    /* Ocultar carrito fuera del menú desplegable en dispositivos pequeños */
+
     .cart-icon {
         display: none;
     }
 }
 
-/* Ajuste para evitar que el contenido quede oculto detrás del navbar fijo */
+
 body {
-    margin-top: 78px; /* Ajusta según la altura del navbar */
+    margin-top: 78px; 
 }
 
 .cart-icon {
     position: relative;
     display: inline-block;
-    margin-left: 20px; /* Ajustar según el espacio */
+    margin-left: 20px;
 }
 
 .cart-badge {

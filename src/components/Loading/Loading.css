@@ -1,8 +1,10 @@
+/* Estilos Del Loader */
+
 .loading {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta según el tamaño de tu contenedor */
+    height: 100vh;
 
 }
 

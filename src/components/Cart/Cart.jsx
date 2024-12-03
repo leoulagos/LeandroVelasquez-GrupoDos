@@ -52,18 +52,8 @@ export default function Cart() {
                                 <td>${item.price.toFixed(3)}</td>
                                 <td>${(item.price * item.quantity).toFixed(3)}</td>
                                 <td>
-                                    <button
-                                        onClick={() => removeFromCart(item.id)}
-                                        className="button button--red button--medium button-text-white"
-                                    >
-                                        Eliminar Producto
-                                    </button>
-                                    <button
-                                        onClick={() => reduceQuantity(item.id)}  // Llamamos a la función para reducir la cantidad
-                                        className="button button--red button--medium button-text-white margin-left-10"
-                                    >
-                                        Eliminar 1 Unidad
-                                    </button>
+                                    <button onClick={() => removeFromCart(item.id)} className="button button--red button--medium button-text-white">Eliminar Producto</button>
+                                    <button onClick={() => reduceQuantity(item.id)} className="button button--red button--medium button-text-white margin-left-10">Eliminar 1 Unidad</button>
                                 </td>
                             </tr>
                         ))}
@@ -74,7 +64,6 @@ export default function Cart() {
                         <h2 className="text-xl font-semibold">Total General:</h2>
                         <h2 className="text-xl font-semibold">${totalGeneral.toFixed(3)}</h2>
                     </div>
-                    {/* Contenedor con margen adicional para los botones */}
                     <div className="buttons-container margin-top-10">
                         <button 
                             onClick={clearCart} 
