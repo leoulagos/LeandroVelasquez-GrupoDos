@@ -1,6 +1,5 @@
 import './Contact.css';
 import NavBar from "../Navbar/Navbar";
-import Banner from "../Banner/Banner";
 import Footer from '../Footer/Footer';
 
 export default function Contact() {
@@ -9,7 +8,7 @@ export default function Contact() {
 
             <NavBar />
 
-            <div className="contacto-container">
+            <div className="contact-container">
                 <h1>Contacto</h1>
                 <p>
                     En PCUP, estamos aquí para ayudarte. Si tienes alguna pregunta, 
@@ -31,8 +30,6 @@ export default function Contact() {
                     Agradecemos tu interés en nuestros productos y esperamos poder atenderte pronto.
                 </p>
             </div>
-
-            
 
             <Footer />
 

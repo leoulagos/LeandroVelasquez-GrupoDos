@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useCartStore } from '../../store/cartStore';  // Importar el store del carrito
+import { useCartStore } from '../../store/cartStore'; 
 import './ItemDetail.css';
 
 export default function ProductDetail({ product, onClose }) {
@@ -22,11 +22,11 @@ export default function ProductDetail({ product, onClose }) {
     };
 
     const handleAddToCart = () => {
-        // Agregar el producto al carrito pasando tanto el producto como la cantidad
+        // Agrega el producto al carrito pasando tanto el producto como la cantidad
         addToCart(product, cantidad);
 
         console.log(`Agregado al carrito: ${product.name} - Cantidad: ${cantidad}`);
-        onClose();  // Cerrar el modal o la vista de detalle
+        onClose();  // Cierra el modal o la vista de detalle
     };
 
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Importar Link de react-router-dom
+import { Link } from 'react-router-dom'; 
 import './Footer.css';
 
 export default function Footer () {
@@ -17,7 +17,6 @@ export default function Footer () {
                         <li><Link to="/">Tienda</Link></li>
                         <li><Link to="/About">Nosotros</Link></li>
                         <li><Link to="/Contact">Contacto</Link></li>
-                        {/* <li><Link to="/faq">Preguntas Frecuentes</Link></li> Cambia href por to */}
                     </ul>
                 </div>
                 <div className="seccion_pie_de_pagina redes_sociales">

@@ -17,7 +17,6 @@ export default function NavbarScript() {
         menuToggle.addEventListener('click', handleToggle);
         navLinks.forEach(link => link.addEventListener('click', handleClose));
 
-        // Limpieza de eventos cuando el componente se acaba
         return () => {
             menuToggle.removeEventListener('click', handleToggle);
             navLinks.forEach(link => link.removeEventListener('click', handleClose));

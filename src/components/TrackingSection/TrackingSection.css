@@ -1,0 +1,115 @@
+/* Estilos para la sección de rastreo */
+
+.tracking-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tracking-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tracking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tracking-form label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.tracking-form input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tracking-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tracking-form button:hover {
+    background-color: #0056b3;
+}
+
+.tracking-result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.tracking-result h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.tracking-result p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Responsive para dispositivos más pequeños */
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .tracking-form input,
+    .tracking-form button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .tracking-form input {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 22px;
+    }
+
+    .tracking-form label {
+        font-size: 14px;
+    }
+
+    .tracking-form input {
+        font-size: 14px;
+    }
+
+    .tracking-form button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

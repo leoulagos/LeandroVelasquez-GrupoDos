@@ -1,6 +1,6 @@
 /* Estilos Del Contacto */
 
-.contacto-container {
+.contact-container {
     padding: 40px;
     max-width: 800px; 
     margin: 40px auto;
@@ -10,35 +10,35 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-.contacto-container h1 {
+.contact-container h1 {
     font-size: 2.5em; 
     margin-bottom: 1em; 
     color: #333; 
     text-align: center; 
 }
 
-.contacto-container p {
+.contact-container p {
     margin-bottom: 1.5em; 
     line-height: 1.6; 
     font-size: 1.1em; 
     color: #555; 
 }
 
-.contacto-container a {
+.contact-container a {
     color: #007bff; 
     text-decoration: none; 
 }
 
-.contacto-container a:hover {
+.contact-container a:hover {
     text-decoration: underline; 
 }
 
 @media (max-width: 600px) {
-    .contacto-container h1 {
+    .contact-container h1 {
         font-size: 2em;
     }
 
-    .contacto-container p {
+    .contact-container p {
         font-size: 1em; 
     }
 }

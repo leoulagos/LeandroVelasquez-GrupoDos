@@ -10,6 +10,7 @@ export default function Cart() {
     const reduceQuantity = useCartStore(state => state.reduceQuantity); 
 
     // Función para finalizar la compra (aun en construccion)
+
     const finalizePurchase = () => {
         console.log("Finalizando compra...");
     };
@@ -67,16 +68,11 @@ export default function Cart() {
                     <div className="buttons-container margin-top-10">
                         <button 
                             onClick={clearCart} 
-                            className="button button--gray button--large button-text-white margin-right-5"
-                        >
-                            Vaciar Carrito
+                            className="button button--gray button--large button-text-white margin-right-5">Vaciar Carrito
                         </button>
                         <button 
                             onClick={finalizePurchase}
-                            className="button button--gray button--large button-text-white margin-right-5"
-                        >
-                            Finalizar Compra
-                        </button>
+                            className="button button--gray button--large button-text-white margin-right-5">Finalizar Compra</button>
                     </div>
                 </div>
             </div>

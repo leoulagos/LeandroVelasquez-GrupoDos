@@ -12,7 +12,9 @@ export default function Shop() {
         <NavBar/>
 
         <div className="container">
+
             <ItemList/>
+            
         </div>
         
         <Footer />

@@ -1,6 +1,7 @@
 import './About.css';
 import NavBar from "../Navbar/Navbar";
 import Footer from '../Footer/Footer';
+import Reviews from '../Reviews/Reviews'
 
 export default function About() {
     return (
@@ -35,6 +36,9 @@ export default function About() {
                     lo que necesitas para llevar tu rendimiento al siguiente nivel ✨
                 </p>
             </div>
+            
+            <Reviews />
+
             <Footer />
         </>
     );

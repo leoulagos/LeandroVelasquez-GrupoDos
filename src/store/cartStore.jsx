@@ -26,12 +26,13 @@ export const useCartStore = create((set) => ({
     },
     clearCart: () => set({ cart: [] }),
 
-    // Nueva función para reducir la cantidad
+    // Función para reducir la cantidad del carro
+
     reduceQuantity: (productId) => {
         set((state) => ({
             cart: state.cart.map(item =>
                 item.id === productId && item.quantity > 1
-                    ? { ...item, quantity: item.quantity - 1 }  // Reducir la cantidad
+                    ? { ...item, quantity: item.quantity - 1 }  
                     : item
             ),
         }));

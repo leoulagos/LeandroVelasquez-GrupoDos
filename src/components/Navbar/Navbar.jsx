@@ -1,7 +1,7 @@
 import NavbarScript from "./NavbarScript";
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import { useCartStore } from '../../store/cartStore';  // Importamos el store del carrito
+import { useCartStore } from '../../store/cartStore';
 
 export default function NavBar() {
     const totalItems = useCartStore((state) =>
@@ -19,10 +19,10 @@ export default function NavBar() {
                     <li><Link to="/Shop">Productos</Link></li>
                     <li><Link to="/About">Nosotros</Link></li>
                     <li><Link to="/Contact">Contacto</Link></li>
-                    {/* Agregar el ícono del carrito al menú en pantallas pequeñas */}
+
                     <li className="cart-icon">
                         <Link to="/cart">
-                            <i className="fa-solid fa-shopping-cart"></i> {/* Icono de carrito */}
+                            <i className="fa-solid fa-shopping-cart"></i> 
                             {totalItems > 0 && (
                                 <span className="cart-badge">
                                     {totalItems}
@@ -36,6 +36,7 @@ export default function NavBar() {
                 </div>
 
                 <NavbarScript />
+
             </nav>
         </>
     );
